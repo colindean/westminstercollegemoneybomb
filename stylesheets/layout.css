@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Puritan:400,700,400italic|Old+Standard+TT);
 /*
 * Skeleton V1.1
 * Copyright 2011, Dave Gamache
@@ -16,6 +17,26 @@
 
 /* #Site Styles
 ================================================== */
+
+header, footer {
+  background: #0B1143;
+  padding: 0.2em;
+}
+footer p {
+  margin: 0;
+}
+header h1, header h5, footer, footer a, footer a:visited {
+  color: white;
+}
+
+h1,h2,h3,h4,h5,h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #0B1143;
+  font-family: 'Old Standard TT', serif;
+}
+
+p,li,a, a:visited {
+  font-family: 'Puritan', sans-serif;
+}
 
 /* #Page Styles
 ================================================== */

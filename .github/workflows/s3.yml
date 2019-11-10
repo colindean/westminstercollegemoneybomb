@@ -8,6 +8,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    name: Deploy to S3
     steps:
     - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
